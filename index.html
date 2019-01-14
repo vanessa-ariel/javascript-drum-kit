@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>JS Drum Kit</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <h1>Drum Kit</h1>
-  <div class="keys">
+  <header class="about">
+    <h1 class="title">Drum Kit</h1>
+    <p class="instruction">Hit the correponding keys to play drums!</p>
+  </header>
+  <section class="keys">
     <div data-key="65" class="key">
       <div class="kbd">A</div>
       <span class="sound">clap</span>
@@ -45,7 +48,7 @@
       <div class="kbd">L</div>
       <span class="sound">tink</span>
     </div>
-  </div>
+  </section>
 
   <audio data-key="65" src="sounds/clap.wav"></audio>
   <audio data-key="83" src="sounds/hihat.wav"></audio>
